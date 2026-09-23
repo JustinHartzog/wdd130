@@ -25,6 +25,22 @@ footer {
     margin: 0 auto;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
 h1 {
     position: absolute;
     top: 20px;
@@ -55,6 +71,40 @@ article {
     padding: 8px;
 }
 
+figure {
+    margin: auto;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    position: relative;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+}
+
+footer nav {
+    position: absolute;
+    float: right;
+    right: 0;
+}
+
+footer nav a {
+    margin: 0 8px;
+}
+
 .hero {
     position: relative;
 }
@@ -79,4 +129,22 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr
+}
+
+.history img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin: 8px 0;
 }
