@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Alpine Rafting Company</title>
+    <meta name="description"
+      content="The contact page for a really cool rafting company if you like going on adventures and having fun">
+    <meta name="author" content="Justin Hartzog">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-raftingbw.png" alt="alpine rafting company logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="info">
+                <h3>Alpine Rafting Company</h3>
+                <p>123 Main River Street</p>
+                <p>Kolob, California</p>
+                <p>+1 999 999 9999</p>
+                <p>info@alpinerafting.com</p>
+            </div>
+            <div class="inquiry">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25120.4732090453!2d-121.71156900362818!3d38.0922869281125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1790902174885!5m2!1sen!2sus"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                <form action="#">
+                    <fieldset>
+                        <div class="form-item item-1">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-item item-2">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required></input>
+                        </div>
+
+                        <div class="message-purpose">
+                            <label>Message Purpose</label>
+                            <div class="radio-buttons">
+                                <div class="radio-item">
+                                    <input type="radio" value="General Inquiry">
+                                    <label for="message">General Inquiry</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" value="Reservation Question">
+                                    <label for="message">Reservation Question</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" value="Website Suggestion">
+                                    <label for="message">Website Suggestion</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="message">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" rows="5" placeholder="Type here"
+                              required></textarea>
+                        </div>
+
+                        <div class="form-item column2">
+                            <input type="checkbox" name="subscribe" id="subscribe"></input>
+                            <label for="subscribe">Please Subscribe me to the monthly
+                                newsletter</label>
+                        </div>
+                    </fieldset>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <h2>We Are Here to Serve You</h2>
+            <div class="employees">
+                <figure>
+                    <img src="images/profile1.jpg" alt="employee profile picture of James">
+                    <figcaption>James</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/profile2.jpg" alt="employee profile picture of susan">
+                    <figcaption>Susan</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/profile3.jpg" alt="employee profile picture of Abby">
+                    <figcaption>Abby</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2026 | Rafting Company Name | Justin Hartzog</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon" width="20">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="Linkedin Icon" width="20">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon" width="20">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

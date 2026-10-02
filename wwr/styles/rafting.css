@@ -148,3 +148,71 @@ footer nav a {
     gap: 8px;
     margin: 8px 0;
 }
+
+.info {
+    margin: 0 auto 24px;
+    text-align: center;
+}
+
+.info p {
+    margin: 0;
+    padding: 4px;
+}
+
+.inquiry {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 8px 0;
+}
+
+.inquiry fieldset {
+    height: 100%;
+
+}
+
+.inquiry button {
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+}
+
+.item-1 {
+    width: 100%;
+    height: 15%;
+}
+
+.item-1 label {
+    margin: 0 20px 0 10px;
+}
+
+.item-2 {
+    height: 15%;
+}
+
+.item-2 label {
+    margin: 0 20px 0 10px;
+}
+
+.message-purpose {
+    display: flex;
+    flex-direction: row;
+}
+
+.message-purpose label {
+    margin: auto;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 8px 0;
+}
