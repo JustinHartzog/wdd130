@@ -224,3 +224,73 @@ iframe {
     gap: 50px;
     margin: 8px 0;
 }
+
+.book {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.book-button {
+    position: absolute;
+    bottom: 20px;
+    padding: 8px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.adventure-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    margin: 8px 80px;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-button {
+    padding: 8px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: 8px 0;
+}
+
+.available-trips {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}

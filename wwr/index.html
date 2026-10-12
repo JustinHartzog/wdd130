@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page - Alpine Rafting Company</title>
+  <meta name="description"
+    content="The home page for a really cool rafting company if you like going on adventures and having fun">
+  <meta name="author" content="Justin Hartzog">
+  <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/z-raftingbw.png" alt="alpine rafting company logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="hero">
+        <img src="images/rafting.jpg" alt="A group of people white water rafting">
+        <h1>Alpine Rafting Company</h1>
+        <div class="book">
+          <button type="submit" class="book-button" onclick="window.location.href='trips.html'">Book
+            Your Trip
+            Now!</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <form action="#">
+        <fieldset>
+          <div class="form-item item-1">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-item item-2">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+        </fieldset>
+
+        <button type="submit">Get in Touch!</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Your Choice of Adventure</h2>
+      <div class="adventure-options">
+        <figure>
+          <img src="images/rapids_1.jpg" alt="picture of a calm river">
+          <figcaption>Rivers</figcaption>
+        </figure>
+        <figure>
+          <img src="images/rapids_2.jpg" alt="picture of a man going down rapids">
+          <figcaption>Rapids</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>©2026 | Rafting Company Name | Justin Hartzog</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com">
+        <img src="images/facebook.png" alt="Facebook Icon" width="20">
+      </a>
+      <a href="https://linkedin.com">
+        <img src="images/linkedin.png" alt="Linkedin Icon" width="20">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.png" alt="Instagram Icon" width="20">
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>
